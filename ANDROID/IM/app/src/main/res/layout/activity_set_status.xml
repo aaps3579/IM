@@ -1,0 +1,97 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:touchscreenBlocksFocus="false">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:title="Registration"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:id="@+id/toolbar4">
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textColor="@android:color/white"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_gravity="center" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Current Status"
+        android:id="@+id/textView9"
+        android:elegantTextHeight="true"
+        android:elevation="@dimen/abc_action_bar_content_inset_material" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="10">
+
+        <EditText
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:id="@+id/editText8"
+            android:maxLength="150"
+            android:editable="false"
+            android:hint="Loading..." />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:layout_gravity="right"
+            android:layout_weight="2"
+            android:src="@android:drawable/ic_menu_edit"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:hint="Enter New Status"
+        android:visibility="gone"
+        android:clickable="false" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10"
+        android:visibility="gone"
+        android:id="@+id/lstatus">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:id="@+id/button5"
+            android:layout_weight="5"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/button6"
+            android:layout_weight="5"
+             />
+    </LinearLayout>
+
+</LinearLayout>

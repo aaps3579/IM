@@ -1,0 +1,197 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyMaterialTheme0" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary0</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark0</item>
+        <item name="colorAccent">@color/colorAccent0</item>
+    </style>
+
+    <style name="MyMaterialTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+        <item name="colorAccent">@color/colorAccent1</item>
+    </style>
+
+    <style name="MyMaterialTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent2</item>
+    </style>
+
+    <style name="MyMaterialTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary3</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark3</item>
+        <item name="colorAccent">@color/colorAccent3</item>
+    </style>
+
+    <style name="MyMaterialTheme4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary4</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark4</item>
+        <item name="colorAccent">@color/colorAccent4</item>
+    </style>
+
+    <style name="MyMaterialTheme5" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary5</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark5</item>
+        <item name="colorAccent">@color/colorAccent5</item>
+    </style>
+
+    <style name="MyMaterialTheme6" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary6</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark6</item>
+        <item name="colorAccent">@color/colorAccent6</item>
+    </style>
+
+    <style name="MyMaterialTheme7" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary7</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark7</item>
+        <item name="colorAccent">@color/colorAccent7</item>
+    </style>
+
+    <style name="MyMaterialTheme8" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary8</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark8</item>
+        <item name="colorAccent">@color/colorAccent9</item>
+    </style>
+
+    <style name="MyMaterialTheme9" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary9</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark9</item>
+        <item name="colorAccent">@color/colorAccent9</item>
+    </style>
+
+    <style name="MyMaterialTheme10" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary10</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark10</item>
+        <item name="colorAccent">@color/colorAccent10</item>
+    </style>
+
+    <style name="MyMaterialTheme11" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary11</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark11</item>
+        <item name="colorAccent">@color/colorAccent11</item>
+    </style>
+
+    <style name="MyMaterialTheme12" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary12</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark12</item>
+        <item name="colorAccent">@color/colorAccent12</item>
+    </style>
+
+    <style name="MyMaterialTheme13" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary13</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark13</item>
+        <item name="colorAccent">@color/colorAccent13</item>
+    </style>
+
+    <style name="MyMaterialTheme14" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary14</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark14</item>
+        <item name="colorAccent">@color/colorAccent14</item>
+    </style>
+
+    <style name="MyMaterialTheme15" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary15</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark15</item>
+        <item name="colorAccent">@color/colorAccent15</item>
+    </style>
+
+    <style name="MyMaterialTheme16" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary16</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark16</item>
+        <item name="colorAccent">@color/colorAccent16</item>
+    </style>
+
+    <style name="MyMaterialTheme17" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary17</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark17</item>
+        <item name="colorAccent">@color/colorAccent17</item>
+    </style>
+
+    <style name="MyMaterialTheme18" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary18</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark18</item>
+        <item name="colorAccent">@color/colorAccent18</item>
+    </style>
+
+    <style name="MyMaterialTheme19" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary19</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark19</item>
+        <item name="colorAccent">@color/colorAccent19</item>
+    </style>
+
+    <style name="MyMaterialTheme20" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary20</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark20</item>
+        <item name="colorAccent">@color/colorAccent20</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

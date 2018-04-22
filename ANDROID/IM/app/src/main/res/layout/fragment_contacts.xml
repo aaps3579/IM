@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp_pc.im.contacts">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView2"
+        android:fastScrollEnabled="true"
+        android:footerDividersEnabled="true"
+        android:drawSelectorOnTop="false"
+        android:headerDividersEnabled="true"
+        android:focusable="false"
+        android:smoothScrollbar="true"
+        android:stackFromBottom="false"
+        android:textFilterEnabled="true" />
+</FrameLayout>

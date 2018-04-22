@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/status"
+        android:title="Status"
+        app:showAsAction="never" />
+    <item android:id="@+id/ProfilePic"
+        android:title="Profile Pic"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/WEB"
+        android:title="IM WEB"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Theme"
+        android:title="Change Theme"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/delete"
+        android:title="Delete Account"
+        app:showAsAction="never"
+        />
+</menu>

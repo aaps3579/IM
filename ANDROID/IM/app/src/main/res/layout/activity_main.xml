@@ -1,0 +1,128 @@
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layoutMode="opticalBounds"
+    android:nestedScrollingEnabled="true"
+    android:showDividers="beginning|end">
+
+
+   <android.support.v7.widget.Toolbar
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="?attr/colorPrimary"
+       android:title="Registration"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+       android:id="@+id/toolbar">
+       <TextView
+           android:singleLine="true"
+           android:id="@+id/toolbar_title"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Registration"
+           android:textColor="@android:color/white"
+           style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+           android:layout_gravity="center" />
+
+
+   </android.support.v7.widget.Toolbar>
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/til">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:inputType="phone"
+        android:textColorHint="@color/origi"
+        android:hint="Enter Mobile Number"/>
+</android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/til1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:singleLine="true"
+        android:layout_alignTop="@+id/tv2"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:textColorHint="@color/origi"
+        android:hint="Username"/>
+    </android.support.design.widget.TextInputLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Gender"
+    android:textSize="19sp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="4dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:id="@+id/radioGroup"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/radioButton"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/radioButton2"
+
+            android:checked="false"
+            android:layout_marginLeft="40dp" />
+
+    </RadioGroup>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/til2">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:hint="Email"
+        android:textColorHint="@color/origi"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/radioGroup"
+        android:layout_alignStart="@+id/radioGroup" />
+</android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Have An Account?"
+        android:id="@+id/button3"
+
+      />
+
+
+</LinearLayout>
